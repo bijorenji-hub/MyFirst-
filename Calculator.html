@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" href = "layout.css">
+    <title>MyFirstWeb</title>
+</head>
+<body>
+    <h1><strong>CALCULATOR</strong></h1>
+    <div class = "Cal" id = "Cal">
+        <input class = "TEXT" id = "Display" readonly>
+        <div class = "layout">
+            <button onclick = "add('1')">1</button>
+            <button onclick = "add('2')">2</button>
+            <button onclick = "add('3')">3</button>
+            <button class = "op" onclick = "add('+')">+</button>
+            <button onclick = "add('4')">4</button>
+            <button onclick = "add('5')">5</button>
+            <button onclick = "add('6')">6</button>
+            <button class = "op" onclick = "add('-')">-</button>
+            <button onclick = "add('7')">7</button>
+            <button onclick = "add('8')">8</button>
+            <button onclick = "add('9')">9</button>
+            <button class = "op" onclick = "add('*')">*</button>
+            <button class = "CLR" onclick = "add('.')">.</button>
+            <button onclick = "add('0')">0</button>
+            <button class = "CLR" onclick = "Clear()">C</button>
+            <button class = "op" onclick = "add('/')">/</button>
+            <button class = "op" onclick = "add('**')"><i>x^</i></button>
+            <button class = "op" onclick = "add('(')">(</button>
+            <button class = "op" onclick = "add(')')">)</button>
+            <button class = "equals" onclick = "calculate()">=</button>
+        </div>
+            
+    </div>
+    <ul>
+        <header>Made by</header>
+        <li>Bijo Renji</li>
+    </ul>
+</body>
+<script src = "math.js" defer></script>
+</html>
