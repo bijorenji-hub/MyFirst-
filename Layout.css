@@ -1,0 +1,59 @@
+h1 {
+    display : flex;
+    justify-content : center;
+    text-shadow : 0px 0px 20px black;
+    border-radius : 10px;
+    color : red;
+    background : linear-gradient(to right,black,red);
+    box-shadow : 0px 0px 30px red;
+}
+body{
+    background : #222222;
+}
+.Cal {
+    display : grid;
+    justify-content : center;
+    align-items : center;
+    gap : 20px;
+}
+.layout {
+    display : grid;
+    grid-template-columns : repeat(4,1fr);
+    width : 300px;
+    height : 380px;
+    gap : 8px;
+}
+input {
+    height : 50px;
+    border-radius : 100px;
+}
+button {
+    border-radius : 280px ;
+    font-size : 30px;
+    color : white;
+    background : darkslategray;
+    box-shadow : 0px 0px 20px black;
+}
+.TEXT {
+    color : white;
+    background : darkslategrey;
+    box-shadow : 0px 0px 20px black;
+    text-shadow : 0px 0px 10px cyan;
+    font-size : 20px;
+    overflow-x : auto;
+    white-space :;
+}
+.op {
+    background : sandybrown;
+}
+.equals {
+    background : radial-gradient(grey,cyan);
+}
+.CLR {
+    background : red;
+}
+ul {
+    position : absolute;
+    margin : 130px;
+    text-shadow : 0px 0px 20px cyan;
+}
